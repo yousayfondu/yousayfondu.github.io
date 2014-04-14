@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+name: Gimme a title already
 markdown: redcarpet
 pygments: true
-permalink: pretty
+permalink: /:year/:month/:day/:title

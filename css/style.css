@@ -1,0 +1,8 @@
+.page-header > h1 > a {
+	color: #333;
+	font-weight: 300;
+}
+.page-header > h1 > a:hover {
+	text-decoration: none;
+	border-bottom: 2px dotted #333;
+}
