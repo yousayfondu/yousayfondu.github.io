@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Gimme a title already
+tab: home
 ---
-
 <div id="home">
 	<div class="posts">
 		{% for post in site.posts %}
-			<article>
+			<article class="post bubble">
 				<header>
 					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 					<p class="meta">{{ post.date | date_to_string }}</p>

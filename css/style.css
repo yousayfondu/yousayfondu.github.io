@@ -1,8 +1,64 @@
-.page-header > h1 > a {
+body {
+	background-color: #BF3100;
+	padding-bottom: 20px;
+}
+
+
+
+.bubble {
+	background-color: #fcfcfc;
+	border-top: 5px solid #FF7A4C;
+	border-bottom: 3px solid #7F1E00;
+	margin-bottom: 20px;
+	padding: 0 10px 20px;
+}
+
+
+
+.page-header {
+	border-bottom: none;
+}
+.page-header a {
+	color: #FF7A4C;
+	display: block;
+}
+.page-header a:hover {
+	
+}
+
+#sidebar {
+	padding: 0;
+}
+#sidebar a {
+	background-color: none;
+	padding: 2px;
+}
+
+
+
+.post header h2 {
+	margin-bottom: 5px;
+}
+.post header a, .post footer a {
+	display: block;
+}
+.post header .meta {
+	font-size: 85%;
+}
+.post footer {
+	font-size: 85%;
+}
+
+
+
+.nav-custom > li {
+	
+}
+.nav-custom > li > a {
 	color: #333;
 	font-weight: 300;
 }
-.page-header > h1 > a:hover {
-	text-decoration: none;
-	border-bottom: 2px dotted #333;
+.nav-custom > li > a:hover, .nav-custom > li.active > a {
+	font-weight: 400;
+	background: none;
 }

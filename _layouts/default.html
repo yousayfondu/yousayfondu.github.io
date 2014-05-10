@@ -21,13 +21,17 @@
 		</div>
 		
 		<div class="row">
-			<div class="col-md-2" id="sidebar">
-				<ul class="nav nav-pills nav-stacked">
-					<li><a href="{{ site.url }}/">Home</a></li>
-				</ul>
+			<div class="col-md-2">
+				<div id="sidebar" class="bubble">
+					<ul class="nav nav-stacked nav-custom">
+						<li{% if page.tab == 'home' %} class="active"{% endif %}><a href="{{ site.url }}/">Home</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="col-md-10" id="content">
-				{{ content }}
+			<div class="col-md-10">
+				<div id="content">
+					{{ content }}
+				</div>
 			</div>
 		</div>
 	</div>
